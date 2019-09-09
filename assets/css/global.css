@@ -33,3 +33,10 @@ footer {
 .bg-blue {
   background-color: #79CBC4;
 }
+
+.btn-primary {
+  border: #FECD0B !important;
+  background-color: #FECD0B !important;
+  font-weight: 700 !important;
+  font-size: 1.5rem !important;
+}
