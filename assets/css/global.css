@@ -43,9 +43,12 @@ footer {
   background-color: #FECD0B !important;
   font-weight: 700 !important;
   font-size: 1.5rem !important;
+  color: 000 !important;
 }
 
 .btn-secondary {
   border: #79CBC4 !important;
   background-color: #79CBC4 !important;
+  font-weight: 700 !important;
+  color: 000 !important;
 }
