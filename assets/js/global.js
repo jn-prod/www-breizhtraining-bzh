@@ -37,9 +37,11 @@ new Vue({
   data() {
       return {
         slides: [
-          '<div class="example-slide">Slide 1</div>',
-          '<div class="example-slide">Slide 2</div>',
-          '<div class="example-slide">Slide 3</div>',
+          '<div class="slide bg-1"></div>',
+          '<div class="slide bg-2"></div>',
+          '<div class="slide bg-3"></div>',
+          '<div class="slide bg-4"></div>',
+          '<div class="slide bg-5"></div>',
         ],
       };
     },
