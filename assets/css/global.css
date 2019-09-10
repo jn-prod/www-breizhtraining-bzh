@@ -67,6 +67,10 @@ footer {
   background-color: #000000 !important;
 }
 
+.bg-light {
+  background-color: #EDEDED !important;
+}
+
 .btn-primary {
   border: #FECD0B !important;
   background-color: #FECD0B !important;
