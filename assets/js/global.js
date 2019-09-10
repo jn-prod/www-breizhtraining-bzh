@@ -33,24 +33,7 @@ function loadStage(file) {
 })();
 
 new Vue({
-  el: '#app',
-  data: {
-    slides: [
-      'example-slide',
-      'bg-1',
-      'bg-2',
-      'bg-3',
-      'bg-4',
-      'bg-5',
-      'bg-6',
-    ]
-  }
+  el: '#app'
 })
 
-Vue.component('carousel', {
-  // Le composant todo-item accepte maintenant une
-  // « prop » qui est comme un attribut personnalisé.
-  // Cette prop est appelée todo.
-  props: ['slide'],
-  template: '<div class="{{ slide }}">Slide 1</div>'
-})
+Vue.component(VueCarousel.name, VueCarousel)
