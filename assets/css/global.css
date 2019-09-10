@@ -26,7 +26,7 @@ nav {
   background-position: top-center;
 }
 
-.example-slide {
+.slide {
   align-items: center;
   background-color: #79CBC4;
   color: #999;
@@ -39,6 +39,22 @@ nav {
 
 .bg-1 {
   background-image: url(../img/slider/img-1.png);
+}
+
+.bg-2 {
+  background-image: url(../img/slider/img-2.png);
+}
+
+.bg-3 {
+  background-image: url(../img/slider/img-3.png);
+}
+
+.bg-4 {
+  background-image: url(../img/slider/img-4.png);
+}
+
+.bg-5 {
+  background-image: url(../img/slider/img-5.png);
 }
 
 .bg-blue {
