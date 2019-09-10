@@ -33,7 +33,16 @@ function loadStage(file) {
 })();
 
 new Vue({
-  el: '#app'
+  el: '#app',
+  data() {
+      return {
+        slides: [
+          '<div class="example-slide">Slide 1</div>',
+          '<div class="example-slide">Slide 2</div>',
+          '<div class="example-slide">Slide 3</div>',
+        ],
+      };
+    },
 })
 
 Vue.component(VueCarousel.name, VueCarousel)
