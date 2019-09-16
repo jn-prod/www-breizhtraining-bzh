@@ -2,25 +2,24 @@
   <!-- CONTACT -->
   <div class="row">
     <div class="col-12 py-5">
-      <h2 class="mb-3">
-      	CONTACT 
-        <a class="text-white ml-2" href="#"><i class="fab fa-instagram"></i></a>
-        <a class="text-white ml-2" href="#"><i class="fab fa-facebook"></i></a>
-      </h2>
+
       <div class="row">
       	<div class="col-md-4">
-      		<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+        	<h2 class="mb-3">
+            CONTACT 
+            <a class="text-white ml-2" href="{{ site.instagram }}" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="text-white ml-2" href="{{ site.facebook }}" target="_blank"><i class="fab fa-facebook"></i></a>
+          </h2>
+          <div>{{ site.email }}</div>
       	</div>
       	<div class="col-md-4">
-      		<h3 class="mb-4">{{ site.data.authors[0].name }}</h3>
-					<div>{{ site.data.authors[0].email }}</div>
+      		<h3 class="my-2">{{ site.data.authors[0].name }}</h3>
 					<div>{{ site.data.authors[0].fone }}</div>
       	</div>
-      	<div class="col-md-4">
-      		<h3 class="mb-4">{{ site.data.authors[1].name }}</h3>
-					<div>{{ site.data.authors[1].email }}</div>
-					<div>{{ site.data.authors[1].fone }}</div>
-      	</div>
+        <div class="col-md-4">
+          <h3 class="my-2">{{ site.data.authors[1].name }}</h3>
+          <div>{{ site.data.authors[1].fone }}</div>
+        </div>
       </div>
     </div>
 	<small class="d-block w-100 text-center">

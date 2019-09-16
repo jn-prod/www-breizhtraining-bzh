@@ -14,7 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Sport Training"
-email: your-email@example.com
+email: "breizhtraining@gmail.com"
+instagram: "https://www.instagram.com/breizhtraining/"
+facebook: "https://www.facebook.com/Breizh-Training-100989794596387/"
 description: >- # this means to ignore newlines until "baseurl:"
   Breizh Training s'est bâti autour de nos expériences respectives
   de sportifs compétiteurs et d'entraîneurs de jeunes sportives et sportifs.
