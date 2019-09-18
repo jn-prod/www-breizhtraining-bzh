@@ -23,7 +23,7 @@ footer {
   z-index: 100;
   background-size: cover;
   height: 100vh;
-  background-position: top-center;
+  background-position: center;
 }
 
 .slide {
