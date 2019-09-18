@@ -1,1 +1,3 @@
-max width: 1080px
+max width: 2000px
+format: jpg
+compression: 85%
