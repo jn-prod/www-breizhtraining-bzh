@@ -20,6 +20,7 @@ facebook: "https://www.facebook.com/Breizh-Training-100989794596387/"
 description: >- # this means to ignore newlines until "baseurl:"
   Breizh Training s'est bâti autour de nos expériences respectives
   de sportifs compétiteurs et d'entraîneurs de jeunes sportives et sportifs.
+tarifs_link: "https://drive.google.com/drive/folders/1LcRqH9bOho9ilmwJIveJe09Va9ZzX_V5?usp=sharing"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
