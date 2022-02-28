@@ -1,0 +1,22 @@
+{
+  "name": "www-breizhtraining-bzh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/js/src/index.js",
+  "scripts": {
+    "server:dev": "bundle exec jekyll serve",
+    "client:dev": "cd ./app && npm run serve",
+    "client:build": "cd ./app && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jn-prod/www-breizhtraining-bzh.git"
+  },
+  "author": "jn-prod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jn-prod/www-breizhtraining-bzh/issues"
+  },
+  "homepage": "https://github.com/jn-prod/www-breizhtraining-bzh#readme"
+}
