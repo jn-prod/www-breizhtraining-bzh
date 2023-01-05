@@ -1,0 +1,32 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+
+// comoponents
+@import './layout.scss';
+@import './section.scss';
+@import './carousel.scss';
+@import './boutton.scss';
+
+// variables
+:root {
+  --color-light: #EDEDED;
+  --color-dark: #000000;
+  --color-primary: #FECD0B;
+  --color-secondary: #79CBC4;
+}
+
+
+// globals
+nav .btn, h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+}
+
+// font-awesome
+.fa-lg {
+  height: 2rem;
+}
+
+.fa-sm {
+  height: 1.3rem;
+}

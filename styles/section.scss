@@ -1,0 +1,13 @@
+.section {
+    &.section--bg-secondary {
+        background-color: var(--color-secondary);
+    }
+    
+    &.section--bg-dark {
+        background-color: var(--color-dark);
+    }
+    
+    &.section--bg-light {
+        background-color: var(--color-light);
+    }
+}
