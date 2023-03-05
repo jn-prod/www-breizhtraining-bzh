@@ -1,4 +1,13 @@
-export default function Section({ children, identifier, background, cta, title }) {
+import {ReactNode} from 'react';
+
+type CtaType = {
+    label: string,
+    href: string,
+}
+
+type SectionType = { background?: string, children?: ReactNode | ReactNode[], identifier?: string, cta?: CtaType, title?: string }
+
+export default function Section({ children, identifier, background, cta, title }: SectionType) {
     return <section className={`section ${background && `section--bg-${background}`}`} id={identifier}>
         <div className={"container py-5"}>
             <div className="row">

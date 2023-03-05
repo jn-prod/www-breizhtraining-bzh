@@ -6,8 +6,6 @@ const site = {
     description: "Breizh Training s'est bâti autour de nos expériences respectives de sportifs compétiteurs et d'entraîneurs de jeunes sportives et sportifs.",
     baseurl:"",
     tarifs_link: "https://drive.google.com/drive/folders/1LcRqH9bOho9ilmwJIveJe09Va9ZzX_V5?usp=sharing",
-    baseurl: "",
-    url: "",
     authors: [{
         name: "GREGOIRE LE CALVE",
         description: "Titulaire d'une maîtrise ''mouvement, sport, santé'' à l'UFR STAPS de Rennes et d'un master en ''management et ingénieurie de l'entraînement sportif'' à l'UFR STAPS de Bordeaux. Stage sur la cohésion de groupe en cyclisme effectué avec l'équipe Bretagne-Schuller. Professeur d'EPS pendant 6 ans et directeur sportif du Team Remy Meder Haguenau pendant 1 an. Coureur cycliste depuis son plus jeune âge. Spécialisé en route et cyclo-cross.",

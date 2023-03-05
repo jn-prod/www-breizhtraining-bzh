@@ -2,11 +2,18 @@ import Head from 'next/head'
 import Script from 'next/script';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { ReactNode } from 'react';
+import type { AppProps } from 'next/app';
 import Carousel from 'react-bootstrap/Carousel';
 import Section from '../section/section'
 import site from '../../site.conf';
 
-export default function Layout({ children, pageProps }) {
+type LayoutType = {
+  pageProps: AppProps['pageProps'] & { title?: string },
+  children?: ReactNode | ReactNode[],
+}
+
+export default function Layout({ children, pageProps }: LayoutType) {
   const slides = [1,2,3,4,5];
 
   return (
