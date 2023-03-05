@@ -5,7 +5,7 @@ type CtaType = {
     href: string,
 }
 
-type SectionType = { background: string, children?: ReactNode | ReactNode[], identifier?: string, cta?: CtaType, title?: string }
+type SectionType = { background?: string, children?: ReactNode | ReactNode[], identifier?: string, cta?: CtaType, title?: string }
 
 export default function Section({ children, identifier, background, cta, title }: SectionType) {
     return <section className={`section ${background && `section--bg-${background}`}`} id={identifier}>
