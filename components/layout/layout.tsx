@@ -26,8 +26,8 @@ export default function Layout({ children, pageProps }: LayoutType) {
         <title>{`${ site.title }, ${ pageProps?.title }.`}</title>
         <meta name="description" content={`${ site.title }, ${ pageProps?.title }. ${ site.description }`}/>
         {process.env.development && ([
-          <Script async src="https://www.googletagmanager.com/gtag/js?id=UA-143913546-1" />,
-          <Script> {`
+          <Script key="analytics-loader" async src="https://www.googletagmanager.com/gtag/js?id=UA-143913546-1" />,
+          <Script id="analytics-config" key="analytics-config"> {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments)}
             gtag('js', new Date());
