@@ -26,7 +26,7 @@ specifiers:
   '@fortawesome/free-brands-svg-icons': ^5.15.4
   '@fortawesome/free-solid-svg-icons': ^5.15.4
   '@fortawesome/react-fontawesome': ^0.2.0
-  '@types/node': 18.14.6
+  '@types/node': 18.19.130
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.9
   bootstrap: ^4.6.2
@@ -58,7 +58,7 @@ dependencies:
 devDependencies:
   '@babel/core': 7.29.6
   '@babel/preset-env': 7.20.2_@babel+core@7.29.6
-  '@types/node': 18.14.6
+  '@types/node': 18.19.130
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.9
   eslint: 8.57.1
@@ -1360,6 +1360,7 @@ packages:
   /@img/colour/1.1.0:
     resolution: {integrity: sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==}
     engines: {node: '>=18'}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -1829,8 +1830,10 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node/18.14.6:
-    resolution: {integrity: sha512-93+VvleD3mXwlLI/xASjw0FzKcwzl3OdTCzm1LaRfqgS21gfFtK3zDXM5Op9TeeMsJVOaJ2VRDpT9q4Y3d0AvA==}
+  /@types/node/18.19.130:
+    resolution: {integrity: sha512-GRaXQx6jGfL8sKfaIDD6OupbIHBr9jv7Jnaml9tB7l4v068PAOXqfcujMMo5PhbIs6ggR1XODELqahT2R8v0fg==}
+    dependencies:
+      undici-types: 5.26.5
     dev: true
 
   /@types/prop-types/15.7.5:
@@ -2699,6 +2702,7 @@ packages:
   /detect-libc/2.1.2:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -5126,6 +5130,10 @@ packages:
       react: 18.2.0
       react-lifecycles-compat: 3.0.4
     dev: false
+
+  /undici-types/5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+    dev: true
 
   /unicode-canonical-property-names-ecmascript/2.0.0:
     resolution: {integrity: sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ==}
