@@ -6,7 +6,7 @@ overrides:
   ajv: 6.14.0
   brace-expansion: 1.1.18
   braces: 3.0.3
-  cross-spawn: 7.0.5
+  cross-spawn: 7.0.6
   flatted: 3.4.2
   immutable: 4.3.9
   js-yaml: 4.3.1
@@ -1360,6 +1360,7 @@ packages:
   /@img/colour/1.1.0:
     resolution: {integrity: sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==}
     engines: {node: '>=18'}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -2596,8 +2597,8 @@ packages:
       browserslist: 4.28.8
     dev: true
 
-  /cross-spawn/7.0.5:
-    resolution: {integrity: sha512-ZVJrKKYunU38/76t0RMOulHOnUcbU9GbpWKAOZ0mhjr7CX6FVrH+4FrAapSOekrgFQ3f/8gwMEuIft0aKq6Hug==}
+  /cross-spawn/7.0.6:
+    resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
     dependencies:
       path-key: 3.1.1
@@ -2699,6 +2700,7 @@ packages:
   /detect-libc/2.1.2:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -3190,7 +3192,7 @@ packages:
       '@ungap/structured-clone': 1.4.0
       ajv: 6.14.0
       chalk: 4.1.2
-      cross-spawn: 7.0.5
+      cross-spawn: 7.0.6
       debug: 4.4.3
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
