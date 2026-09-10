@@ -42,7 +42,7 @@ specifiers:
   typescript: 4.8.4
 
 dependencies:
-  '@fortawesome/fontawesome-free': 6.3.0
+  '@fortawesome/fontawesome-free': 6.7.2
   '@fortawesome/fontawesome-svg-core': 1.2.36
   '@fortawesome/free-brands-svg-icons': 5.15.4
   '@fortawesome/free-solid-svg-icons': 5.15.4
@@ -1294,10 +1294,9 @@ packages:
     requiresBuild: true
     dev: false
 
-  /@fortawesome/fontawesome-free/6.3.0:
-    resolution: {integrity: sha512-qVtd5i1Cc7cdrqnTWqTObKQHjPWAiRwjUPaXObaeNPcy7+WKxJumGBx66rfSFgK6LNpIasVKkEgW8oyf0tmPLA==}
+  /@fortawesome/fontawesome-free/6.7.2:
+    resolution: {integrity: sha512-JUOtgFW6k9u4Y+xeIaEiLr3+cjoUPiAuLXoyKOJSia6Duzb7pq+A76P9ZdPDoAoxHdHzq6gE9/jKBGXlZT8FbA==}
     engines: {node: '>=6'}
-    requiresBuild: true
     dev: false
 
   /@fortawesome/fontawesome-svg-core/1.2.36:
@@ -1360,6 +1359,7 @@ packages:
   /@img/colour/1.1.0:
     resolution: {integrity: sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==}
     engines: {node: '>=18'}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -1634,8 +1634,8 @@ packages:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.6.0
 
-  /@napi-rs/wasm-runtime/1.2.3_d4qkqszeka752fdss43gbdzrti:
-    resolution: {integrity: sha512-UMduMbqO5s5zF2NkNacMT/yK5Y5QiKvWr2+50bzIIxFDwVJ2h49b+oyjaCGPhJxd2/gC2x39EHv/gHVuu36x2Q==}
+  /@napi-rs/wasm-runtime/1.2.4_d4qkqszeka752fdss43gbdzrti:
+    resolution: {integrity: sha512-AJxoUD2/15ESHbvpcyjU274nsAPLuOtPHCk0vKJM5pj//Fg/B1FXNWjPnXTT9PymCYYiHo4zPj0ZomXBKhoy7g==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=23.5.0}
     requiresBuild: true
     peerDependencies:
@@ -2202,7 +2202,7 @@ packages:
     dependencies:
       '@emnapi/core': 1.10.0
       '@emnapi/runtime': 1.10.0
-      '@napi-rs/wasm-runtime': 1.2.3_d4qkqszeka752fdss43gbdzrti
+      '@napi-rs/wasm-runtime': 1.2.4_d4qkqszeka752fdss43gbdzrti
     dev: true
     optional: true
 
@@ -2699,6 +2699,7 @@ packages:
   /detect-libc/2.1.2:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dev: false
     optional: true
 
