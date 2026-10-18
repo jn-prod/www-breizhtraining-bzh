@@ -4,7 +4,7 @@ overrides:
   '@babel/plugin-transform-modules-systemjs': 7.29.4
   '@babel/runtime': 7.26.10
   ajv: 6.14.0
-  brace-expansion: 1.1.18
+  brace-expansion: 1.1.21
   braces: 3.0.3
   cross-spawn: 7.0.5
   flatted: 3.4.2
@@ -1360,6 +1360,7 @@ packages:
   /@img/colour/1.1.0:
     resolution: {integrity: sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==}
     engines: {node: '>=18'}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -2477,8 +2478,8 @@ packages:
       popper.js: 1.16.1
     dev: false
 
-  /brace-expansion/1.1.18:
-    resolution: {integrity: sha512-Edep/X9fGqVNmzKBVsDYIOtD+z1tuezV70LBjdCst9Tqu76lsnvRiZ6oTic1n+/BIwX6QDGAO94PN4N2SADvtw==}
+  /brace-expansion/1.1.21:
+    resolution: {integrity: sha512-9zeA+KLZNNzglF2TPKRQEDyx6Yby7daAkuy8MiPzpXPsYDWi/DRM8jmwUDxokQjYqBpv5DgPiwD4h4ZZSy1Ujw==}
     dependencies:
       balanced-match: 1.0.2
       concat-map: 0.0.1
@@ -2699,6 +2700,7 @@ packages:
   /detect-libc/2.1.2:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -4121,7 +4123,7 @@ packages:
   /minimatch/3.1.4:
     resolution: {integrity: sha512-twmL+S8+7yIsE9wsqgzU3E8/LumN3M3QELrBZ20OdmQ9jB2JvW5oZtBEmft84k/Gs5CG9mqtWc6Y9vW+JEzGxw==}
     dependencies:
-      brace-expansion: 1.1.18
+      brace-expansion: 1.1.21
     dev: true
 
   /minimist/1.2.8:
