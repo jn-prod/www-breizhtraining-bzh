@@ -1,6 +1,37 @@
 // Breizh Training : carrousel avec pause, et liste des stages lue dans Google Sheets.
-const SHEET =
-  "https://sheets.googleapis.com/v4/spreadsheets/1AWIDHqtH7m6715XM7yhVqrOUumjJZzzPCBLwpvlSKAw/values/stages!2:1000?key=AIzaSyBjxkfGwlThS3JGnh95mYG4vvEgXK4pxb0";
+const SHEET = "https://docs.google.com/spreadsheets/d/1AWIDHqtH7m6715XM7yhVqrOUumjJZzzPCBLwpvlSKAw/gviz/tq?tqx=out:csv&sheet=stages&range=2:1000";
+
+// Lecture CSV : champs entre guillemets, virgules et retours à la ligne inclus.
+const parseCsv = (text) => {
+  const rows = [];
+  let row = [];
+  let field = "";
+  let quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (quoted) {
+      if (c === '"' && text[i + 1] === '"') {
+        field += '"';
+        i++;
+      } else if (c === '"') quoted = false;
+      else field += c;
+    } else if (c === '"') quoted = true;
+    else if (c === ",") {
+      row.push(field);
+      field = "";
+    } else if (c === "\n") {
+      row.push(field);
+      rows.push(row);
+      row = [];
+      field = "";
+    } else if (c !== "\r") field += c;
+  }
+  if (field || row.length) {
+    row.push(field);
+    rows.push(row);
+  }
+  return rows;
+};
 
 function carousel(root) {
   const slides = [...root.querySelectorAll(".carousel__slide")];
@@ -29,7 +60,7 @@ function carousel(root) {
 async function stages(root) {
   const res = await fetch(SHEET);
   if (!res.ok) return;
-  const { values = [] } = await res.json();
+  const values = parseCsv(await res.text());
   // Une ligne sans nom ni date est un gabarit vide de la feuille.
   const rows = values.filter(([name, start]) => name || start);
   if (!rows.length) return;
