@@ -64,9 +64,6 @@ a { color: #0056b3; }
 .footer a:focus-visible { outline-color: #fff; }
 .footer__signature { margin: 0; padding: 1rem; text-align: center; font-size: .8rem; }
 .footer__signature a { display: inline-block; padding: .75rem .25rem; color: var(--color-light); }
-.legal { padding-top: 3rem; padding-bottom: 3rem; }
-.legal h1 { font-size: 2.5rem; margin-bottom: 2rem; }
-.legal h2 { margin-top: 2rem; font-size: 1.5rem; }
 
 @media (min-width: 768px) {
   .grid__half { flex: 1 1 calc(50% - 15px); }
